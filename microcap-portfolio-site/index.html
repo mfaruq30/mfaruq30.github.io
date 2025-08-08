@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Micro-Cap Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Micro‑Cap Portfolio</h1>
+      <p class="subtitle">High-upside, catalyst-driven picks (Aug 2025 → Feb 2026)</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="summary" class="summary">
+      <div class="summary-card">
+        <div>
+          <h2>Portfolio Value</h2>
+          <div id="portfolioValue" class="big"></div>
+          <div id="portfolioPL" class="pl"></div>
+        </div>
+        <div>
+          <h2>Cash</h2>
+          <div id="cashValue" class="big"></div>
+          <div class="muted">Reserve for flexibility</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Holdings</h2>
+      <div id="holdings" class="grid"></div>
+    </section>
+
+    <section>
+      <h2>Performance</h2>
+      <canvas id="portfolioChart" height="120"></canvas>
+    </section>
+
+    <section class="notes">
+      <h2>Notes</h2>
+      <ul>
+        <li>Prices update automatically after market close via GitHub Actions &amp; yfinance.</li>
+        <li>This site is static (no server). Data is loaded from <code>portfolio.json</code>.</li>
+        <li>Educational/demo only. Not financial advice.</li>
+      </ul>
+      <div id="updatedAt" class="updated"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Micro‑Cap Portfolio</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
