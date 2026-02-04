@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-03 15:59 EST",
+  "updated_at": "2026-02-04 15:57 EST",
   "holdings": [
     {
       "symbol": "ALDX",
       "name": "Aldeyra Therapeutics",
       "shares": 50,
       "avg_cost": 5.0,
-      "last_price": 5.41,
+      "last_price": 5.22,
       "stop": null,
       "catalyst": "FDA decision (PDUFA) Dec 16, 2025",
       "notes": "Hold through catalyst; consider profit-taking post-approval spike."
@@ -16,7 +16,7 @@
       "name": "aTyr Pharma",
       "shares": 30,
       "avg_cost": 5.0,
-      "last_price": 0.9606,
+      "last_price": 0.8835,
       "stop": null,
       "catalyst": "Phase 3 top-line data expected Q3 2025",
       "notes": "Binary event; smaller size to manage risk."
@@ -26,7 +26,7 @@
       "name": "United States Antimony",
       "shares": 34,
       "avg_cost": 2.94,
-      "last_price": 9.605,
+      "last_price": 8.115,
       "stop": 2.35,
       "catalyst": "Q2 2025 earnings; EV/critical minerals momentum",
       "notes": "Use trailing stop ~20%."
