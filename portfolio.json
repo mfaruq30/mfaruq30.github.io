@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-12 18:03 EDT",
+  "updated_at": "2026-06-15 18:31 EDT",
   "holdings": [
     {
       "symbol": "ALDX",
@@ -16,7 +16,7 @@
       "name": "aTyr Pharma",
       "shares": 30,
       "avg_cost": 5.0,
-      "last_price": 0.4404,
+      "last_price": 0.4433,
       "stop": null,
       "catalyst": "Phase 3 top-line data expected Q3 2025",
       "notes": "Binary event; smaller size to manage risk."
@@ -26,7 +26,7 @@
       "name": "United States Antimony",
       "shares": 34,
       "avg_cost": 2.94,
-      "last_price": 7.04,
+      "last_price": 7.48,
       "stop": 2.35,
       "catalyst": "Q2 2025 earnings; EV/critical minerals momentum",
       "notes": "Use trailing stop ~20%."
