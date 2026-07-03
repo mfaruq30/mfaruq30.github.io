@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02 17:39 EDT",
+  "updated_at": "2026-07-03 17:36 EDT",
   "holdings": [
     {
       "symbol": "ALDX",
@@ -16,7 +16,7 @@
       "name": "aTyr Pharma",
       "shares": 30,
       "avg_cost": 5.0,
-      "last_price": 0.5925,
+      "last_price": 0.593,
       "stop": null,
       "catalyst": "Phase 3 top-line data expected Q3 2025",
       "notes": "Binary event; smaller size to manage risk."
